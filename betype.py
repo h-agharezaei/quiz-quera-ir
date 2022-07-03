@@ -6,7 +6,6 @@
 @Links: https://quera.org/problemset/28948/
 """
 s = input()
-count_equal = s.count('=')
 for i in range(s.count('=')):
   index = s.find('=')
   if index == 0:
